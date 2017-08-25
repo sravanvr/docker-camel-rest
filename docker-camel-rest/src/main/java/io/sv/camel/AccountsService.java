@@ -1,15 +1,11 @@
 package io.sv.camel;
 
-import org.apache.camel.CamelContext;
-import org.apache.camel.Exchange;
-import org.apache.camel.Message;
-import org.apache.camel.Processor;
-import org.apache.camel.ProducerTemplate;
+import org.apache.camel.*;
 import org.apache.camel.impl.DefaultCamelContext;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
+/**
+ * Account Service
+ */
 public class AccountsService {
 
 		 
